@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.arukusoft.gamerzzz.ui.theme.GamerZzzTheme
+import com.arukusoft.gamerzzz.ui.theme.navigation.AppNavigation
 import com.arukusoft.gamerzzz.ui.theme.screens.LoginScreen
 import com.arukusoft.gamerzzz.ui.theme.screens.RegisterScreen
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             GamerZzzTheme {
                 // A surface container using the 'background' color from the theme
-                LoginScreen(){}
+                AppNavigation()
             }
         }
     }

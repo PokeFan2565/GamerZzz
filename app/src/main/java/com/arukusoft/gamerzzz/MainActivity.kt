@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             GamerZzzTheme {
                 // A surface container using the 'background' color from the theme
-                AppNavigation()
+                AppNavigation(context = this)
             }
         }
     }

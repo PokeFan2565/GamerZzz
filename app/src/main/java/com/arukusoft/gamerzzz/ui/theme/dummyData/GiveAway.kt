@@ -7,3 +7,7 @@ data class GiveAway(
     val price: String = "100 Diamonds",
     val totalWinner: String = "12"
 )
+
+data class GiveAwayCandidates(
+    val candidates: List<String> = listOf("Alok Mistry", "Rohit Mandal", "Akash Biswas", "GameXChatter", "Gaming Tactics")
+)
